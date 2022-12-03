@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-up</title>
+    <link rel="Stylesheet" href="login_form.css">
+</head>
+<body>
+    
+  
+    <div class="happy">
+    <form onsubmit="sendemail(); reset(); return false;">
+        <h3>GET IN TOUCH</h3>
+            <input type="text" name="name" id="name" placeholder="Your name.." required>
+            <input type="email" name="email" id="email" placeholder="Email id" >
+            <input type="text" name="phone" id="phone" placeholder="Phone no.">
+            <textarea id="message" rows="4" placeholder="How can we help you ?"></textarea>
+             <button id="submit" type="submit">Send</button>
+      
+    </form>
+</div>
+
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendemail(){
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "boytechnical289@gmail.com",
+    Password : "5E2058D5DAD59B5EADF782E6497EFEAC72CF",
+    To : 'upal289@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "Name: " + document.getElementById("name").value
+    + "<br> Email: " + document.getElementById("email").value
+    + "<br> Phone number: " + document.getElementById("phone").value 
+    + "<br> Message: " + document.getElementById("message").value
+}).then(
+  message => alert("Message sent Succesfully")
+);
+    }
+</script>
+</body>
+</html>
