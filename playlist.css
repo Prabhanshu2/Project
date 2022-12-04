@@ -1,0 +1,12 @@
+#play{
+    width:100vw;
+    height: 70vh;
+    background-image: url(image/music2.jpg);
+}
+
+.indi{
+    width: 15vw;
+    height: 40vh;
+    background-color: black;
+    
+}
