@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+
+#play{
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(image/music2.jpg);
+    
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.indi{
+    width: 200px;
+    height: 300px;
+    border-color: beige;
+    border-style:solid;
+    margin: 20px;
+}
+
+.indiimg{
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid;
+    border-color: whitesmoke;
+}
+
+.indiimg img{
+    width: 100%;
+    height: 100%;
+
+}
