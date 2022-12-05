@@ -73,3 +73,31 @@ nav ul li a:hover{
 #myprogressbar{
     width: 80vw;
 }
+.singers{
+    display: flex;
+    
+     overflow: hidden;
+ }
+ .singers span{
+     /* background-color: aqua; */
+     /* margin: 10px; */
+     padding: 24px;
+     text-align: center;
+     display: block;
+     border-radius: 70px;
+     overflow: hidden;
+     font-style: italic;
+     font-weight: bold;
+     transition: width 2s, height 2s;
+ }
+ .singers span img:hover{ 
+     height: 150px;
+     width: 150px;
+ }
+ .singers img{
+     height:100px ;
+     width: 100px;
+     border-radius: 50%;
+     border: 2px solid black;
+     cursor: pointer;
+ }
