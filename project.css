@@ -1,9 +1,11 @@
 body{
     background-color: antiquewhite;
     background-image: url('image/cool-background (1).png');
+    /* background-image: linear-gradient(to right,#002952,#001429 ); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 #navbar{
