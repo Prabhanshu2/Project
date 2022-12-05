@@ -75,29 +75,26 @@ nav ul li a:hover{
 }
 .singers{
     display: flex;
-    
      overflow: hidden;
  }
  .singers span{
      /* background-color: aqua; */
-     /* margin: 10px; */
-     padding: 24px;
+     /* /* margin: 10px; * */
+     padding: 2rem;
      text-align: center;
-     display: block;
-     border-radius: 70px;
      overflow: hidden;
      font-style: italic;
      font-weight: bold;
      transition: width 2s, height 2s;
  }
  .singers span img:hover{ 
-     height: 150px;
-     width: 150px;
+     height: 18vh;
+     width: 10vw;
  }
  .singers img{
-     height:100px ;
-     width: 100px;
+     height:15vh ;
+     width: 9vw;
      border-radius: 50%;
-     border: 2px solid black;
+     border: 0.1rem solid black;
      cursor: pointer;
  }
