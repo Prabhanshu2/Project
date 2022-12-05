@@ -36,3 +36,28 @@
     height: 100%;
 
 }
+
+#content{
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    transition: all 1s linear; 
+}
+
+
+
+#content:target{
+    height: 60%;
+    width: 60%;
+    top: 20%;
+    left: 20%;
+    background-image: url(image/music2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    
+}
+
