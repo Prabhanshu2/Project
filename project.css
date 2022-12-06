@@ -75,28 +75,26 @@ nav ul li a:hover{
 #myprogressbar{
     width: 80vw;
 }
-.singers{
+.singer{
     display: flex;
-     overflow: hidden;
- }
- .singers span{
-     /* background-color: aqua; */
-     /* /* margin: 10px; * */
-     padding: 2rem;
-     text-align: center;
-     overflow: hidden;
-     font-style: italic;
-     font-weight: bold;
-     transition: width 2s, height 2s;
- }
- .singers span img:hover{ 
-     height: 18vh;
-     width: 10vw;
- }
- .singers img{
-     height:15vh ;
-     width: 9vw;
-     border-radius: 50%;
-     border: 0.1rem solid black;
-     cursor: pointer;
- }
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.singers{
+    display: inline-flex;
+    text-align: center;
+    padding: 1.8rem;
+}
+.singers img{
+        display: flex;
+        height: 4rem;
+        width: 5rem;
+        border-radius: 50%;
+        border: .2rem solid black;
+        transition: width 0.3s, height 0.3s;
+    }
+.singers img:hover{
+    height: 6rem;
+    width: 7.6rem;
+}
