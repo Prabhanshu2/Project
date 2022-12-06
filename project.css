@@ -46,6 +46,7 @@ nav ul li a:hover{
     /* background-color: black; */
     color: black;
     display: flex;
+    flex-wrap: wrap;
     width: 93%;
     border-radius: 12px;
     margin: 24px auto;
@@ -75,16 +76,27 @@ nav ul li a:hover{
 #myprogressbar{
     width: 80vw;
 }
+h2{
+    padding-left: 2rem;
+    font-family: 'sans-serif';
+    text-decoration: underline;
+}
+figcaption{
+    contain: inline-size;
+    text-transform: capitalize;
+}
 .singer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+    display: flexbox;
+
+    border-top-color: black;
+    border-top-style: groove;
+    padding-bottom: 2rem;
 }
 .singers{
     display: inline-flex;
     text-align: center;
-    padding: 1.8rem;
+    margin: 1.7rem;
+    transition: transform .2s;
 }
 .singers img{
         display: flex;
@@ -92,9 +104,23 @@ nav ul li a:hover{
         width: 5rem;
         border-radius: 50%;
         border: .2rem solid black;
-        transition: width 0.3s, height 0.3s;
     }
-.singers img:hover{
-    height: 6rem;
-    width: 7.6rem;
+.singers:hover{
+   transform: scale(1.5);
+}
+.old_song{
+    display: inline-flex;
+    text-align: center;
+    margin: 1.7rem;
+    transition: transform .2s;
+}
+.old_song img{
+    display: flex;
+    height: 4rem;
+    width: 5rem;
+    border: .2rem solid black;
+    transition: width 0.3s, height 0.3s;
+}
+.old_song:hover{
+transform: scale(1.5);
 }
