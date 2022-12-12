@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="happy">
-    <form onsubmit="sendemail(); reset(); return false;">
+    <form >
         <div id="hello">
             <h3>GET IN TOUCH</h3>
             <h3><a href="project.html" target="_self">Home</a></h3>
@@ -21,24 +21,6 @@
     </form>
 </div>
 
-<script src=" https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendemail(){
-        Email.send({
-    Host : "smtp.gmail.com",
-    Username : "boytechnical289@gmail.com",
-    Password : "5E2058D5DAD59B5EADF782E6497EFEAC72CF",
-    To : 'upal289@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "This is the subject",
-    Body : "Name: " + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Phone number: " + document.getElementById("phone").value 
-    + "<br> Message: " + document.getElementById("message").value
-}).then(
-  message => alert("Message sent Succesfully \n\n Thank you for detail.")
-);
-    }
-</script>
+
 </body>
 </html>
