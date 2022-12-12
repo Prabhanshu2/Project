@@ -3,11 +3,16 @@ nav{
     width:100vw;
     height:3%;
     display:flex;
-    fl
+    flex-direction:row;
+
 }
 
 
 #logo img{
     width:100px;
     height:30px;
+}
+
+#mid ul{
+    list-style:none;
 }
