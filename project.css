@@ -54,18 +54,6 @@ nav ul li a:hover{
     
     
 }
-.bottom{
-    position: sticky;
-    /* height: 50px; */
-    /* background-color: black; */
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:black;
-    flex-direction: column;
-   
-}
 .icons{
     margin-top: 8px;
 }
@@ -123,4 +111,25 @@ figcaption{
 }
 .old_song:hover{
 transform: scale(1.5);
+}
+.arijit{
+    display: inline-flex;
+    text-align: center;
+    padding: 2rem;
+    align-items: center;
+    margin:3%;
+    transition: transform .2s;
+}
+.arijit img{
+    display: flex;
+    height: 4rem;
+    width: 5rem;
+    border: .2rem solid black;
+    transition: width 0.3s, height 0.3s;
+}
+.arijit:hover{
+transform: scale(1.5);
+}
+audio{
+    zoom: 47%;
 }
