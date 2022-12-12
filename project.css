@@ -1,6 +1,6 @@
 body{
     background-color: antiquewhite;
-    background-image: url('image/cool-background (1).png');
+    background-image: url('image/index.jpg');
     /* background-image: linear-gradient(to right,#002952,#001429 ); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ figcaption{
 
     border-top-color: black;
     border-top-style: groove;
-    padding-bottom: 2rem;
+    padding: 3rem;
 }
 .singers{
     display: inline-flex;
