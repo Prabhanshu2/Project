@@ -110,6 +110,7 @@ figcaption{
     height: 4rem;
     width: 5rem;
     border: .2rem solid black;
+    /* border-radius: 50%; */
     transition: width 0.3s, height 0.3s;
 }
 .old_song:hover{
